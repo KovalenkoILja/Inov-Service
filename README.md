@@ -5,24 +5,16 @@
 This Android application was created with the aim of studying jsoup on a real example and the construction of basic interface elements based on the obtained data.
 
 # Gallery
-<img src=https://github.com/KovalenkoILja/Inov-Service/blob/master/screenshots/main.gif" width="200">
-
-<img src=https://github.com/KovalenkoILja/Inov-Service/blob/master/screenshots/main_screen.png" width="200">
-
-<img src=https://github.com/KovalenkoILja/Inov-Service/blob/master/screenshots/nav_bar.png" width="200">
-
-<img src=https://github.com/KovalenkoILja/Inov-Service/blob/master/screenshots/product_1.png" width="200">
-
-<img src=https://github.com/KovalenkoILja/Inov-Service/blob/master/screenshots/product_2.png" width="200">
-
-<img src=https://github.com/KovalenkoILja/Inov-Service/blob/master/screenshots/services.png" width="200">
-<img src=https://github.com/KovalenkoILja/Inov-Service/blob/master/screenshots/services_all.png" width="200">
-
-<img src=https://github.com/KovalenkoILja/Inov-Service/blob/master/screenshots/single_news.png" width="200">
-
-<img src=https://github.com/KovalenkoILja/Inov-Service/blob/master/screenshots/single_price_list.png" width="200">)
-
-<img src=https://github.com/KovalenkoILja/Inov-Service/blob/master/screenshots/single_service.png" width="200">
+![](https://github.com/KovalenkoILja/Inov-Service/blob/master/screenshots/main.gif)
+![](https://github.com/KovalenkoILja/Inov-Service/blob/master/screenshots/main_screen.png)
+![](https://github.com/KovalenkoILja/Inov-Service/blob/master/screenshots/nav_bar.png)
+![](https://github.com/KovalenkoILja/Inov-Service/blob/master/screenshots/product_1.png)
+![](https://github.com/KovalenkoILja/Inov-Service/blob/master/screenshots/product_2.png)
+![](https://github.com/KovalenkoILja/Inov-Service/blob/master/screenshots/services.png)
+![](https://github.com/KovalenkoILja/Inov-Service/blob/master/screenshots/services_all.png)
+![](https://github.com/KovalenkoILja/Inov-Service/blob/master/screenshots/single_news.png)
+![](https://github.com/KovalenkoILja/Inov-Service/blob/master/screenshots/single_price_list.png)
+![](https://github.com/KovalenkoILja/Inov-Service/blob/master/screenshots/single_service.png)
 
 # Contact
 For any enquiries, please send an email to dalek@mail.ua.
