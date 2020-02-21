@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.infideap.drawerbehavior.AdvanceDrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:id="@+id/drawer_layout"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:fitsSystemWindows="true"
+  tools:openDrawer="start">
+
+  <com.google.android.material.navigation.NavigationView
+    android:id="@+id/nav_view"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_gravity="start"
+    android:fitsSystemWindows="true"
+    app:headerLayout="@layout/nav_header_main"
+    app:menu="@menu/main" />
+
+  <android.widget.RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:productActivityWeakReference="activities.NewsActivity">
+
+    <include
+      layout="@layout/toolbar_main"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content" />
+
+    <TextView
+      android:id="@+id/titleTextView"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/toolbar"
+      android:background="@color/colorPrimaryDark"
+      android:gravity="center"
+      android:text="@string/aboutMenuStr"
+      android:textAppearance="@style/TextAppearance.AppCompat.Title"
+      android:textColor="#FFF"
+      android:textStyle="italic" />
+    <fragment
+      android:id="@+id/goggleMap"
+      android:name="com.google.android.gms.maps.SupportMapFragment"
+      android:layout_width="match_parent"
+      android:layout_height="425dp"
+      android:layout_below="@+id/titleTextView"
+      app:layout_constraintLeft_toLeftOf="parent"
+      app:layout_constraintRight_toRightOf="parent" />
+    <TableLayout
+      android:id="@+id/tableLayout"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/goggleMap"
+      android:layout_margin="5dp"
+      android:stretchColumns="*">
+      <TableRow
+        android:layout_margin="5dp"
+        android:background="@drawable/border">
+        <ImageView
+          android:layout_width="wrap_content"
+          android:layout_height="match_parent"
+          android:layout_column="0"
+          android:layout_margin="5dp"
+          android:layout_weight="1"
+          android:gravity="center"
+          android:src="@drawable/ic_location_on_black_24dp" />
+        <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="match_parent"
+          android:layout_column="1"
+          android:layout_margin="5dp"
+          android:layout_weight="1"
+          android:gravity="center"
+          android:text="@string/addressStr"
+          android:textSize="20sp" />
+      </TableRow>
+      <TableRow
+        android:layout_margin="5dp"
+        android:background="@drawable/border">
+        <ImageView
+          android:layout_width="wrap_content"
+          android:layout_height="match_parent"
+          android:layout_column="0"
+          android:layout_margin="5dp"
+          android:layout_weight="1"
+          android:gravity="center"
+          android:src="@drawable/ic_phone_black_24dp" />
+        <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="match_parent"
+          android:layout_column="1"
+          android:layout_margin="5dp"
+          android:layout_weight="1"
+          android:gravity="center"
+          android:text="@string/phoneStr"
+          android:textSize="20sp" />
+      </TableRow>
+      <TableRow
+        android:layout_margin="5dp"
+        android:background="@drawable/border">
+        <ImageView
+          android:layout_width="wrap_content"
+          android:layout_height="match_parent"
+          android:layout_column="0"
+          android:layout_margin="5dp"
+          android:layout_weight="1"
+          android:gravity="center"
+          android:src="@drawable/ic_email_black_24dp" />
+        <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="match_parent"
+          android:layout_column="1"
+          android:layout_margin="5dp"
+          android:layout_weight="1"
+          android:gravity="center"
+          android:text="@string/emailStr"
+          android:textSize="20sp" />
+      </TableRow>
+      <TableRow
+        android:layout_margin="5dp"
+        android:background="@drawable/border">
+        <ImageView
+          android:layout_width="wrap_content"
+          android:layout_height="match_parent"
+          android:layout_column="0"
+          android:layout_margin="5dp"
+          android:layout_weight="1"
+          android:gravity="center"
+          android:src="@drawable/ic_access_time_black_24dp" />
+        <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="match_parent"
+          android:layout_column="1"
+          android:layout_margin="5dp"
+          android:layout_weight="1"
+          android:gravity="center"
+          android:text="@string/worktimeStr"
+          android:textSize="18sp" />
+      </TableRow>
+    </TableLayout>
+  </android.widget.RelativeLayout>
+
+</com.infideap.drawerbehavior.AdvanceDrawerLayout>

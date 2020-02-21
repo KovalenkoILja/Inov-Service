@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_height="wrap_content"
+  android:layout_width="match_parent"
+  android:background="@drawable/border">
+  <TextView
+    android:id="@+id/tableCellNumber"
+    android:layout_height="match_parent"
+    android:layout_width="wrap_content"
+    android:layout_column="0"
+    android:layout_weight="0"
+    android:text="№"
+    android:textStyle="bold"
+    android:gravity="center"
+    android:background="@drawable/border" />
+  <TextView
+    android:id="@+id/tableCellName"
+    android:text="Наименование"
+    android:layout_height="match_parent"
+    android:layout_width="wrap_content"
+    android:layout_column="1"
+    android:layout_weight="10"
+    android:textStyle="bold"
+    android:gravity="center"
+    android:background="@drawable/border"></TextView>
+  <TextView
+    android:id="@+id/tableCellLight"
+    android:text="Световой поток"
+    android:layout_height="match_parent"
+    android:layout_width="wrap_content"
+    android:layout_column="2"
+    android:layout_weight="1"
+    android:textStyle="bold"
+    android:gravity="center"
+    android:background="@drawable/border"></TextView>
+  <TextView
+    android:id="@+id/tableCellPrice"
+    android:text="Цена(ед.)"
+    android:layout_height="match_parent"
+    android:layout_width="wrap_content"
+    android:layout_column="3"
+    android:layout_weight="0.5"
+    android:textStyle="bold"
+    android:gravity="center"
+    android:background="@drawable/border"></TextView>
+</TableRow>

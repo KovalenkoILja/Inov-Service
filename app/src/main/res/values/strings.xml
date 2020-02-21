@@ -1,0 +1,18 @@
+<resources>
+  <string name="app_name">ИНОВ СЕРВИС</string>
+  <string name="catalogMenuStr">Каталог</string>
+  <string name="serviceMenuStr">Услуги</string>
+  <string name="pricesMenuStr">Прайс-лист</string>
+  <string name="aboutMenuStr">О компании</string>
+  <string name="catalogBtnStr">Весь каталог</string>
+  <string name="mainMenuStr">Главная</string>
+  <string name="lorem_ipsum_str">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
+  <string name="title_str">Title</string>
+  <string name="newsMenuStr">Новости</string>
+  <string name="addressStr">г. Донецк, ул.Батищева, 2а офис 53</string>
+  <string name="phoneStr">(071) 335-34-24</string>
+  <string name="emailStr">sales@inov.com.ua</string>
+  <string name="worktimeStr">Пн. – Пт.: с 9:00 до 18:00</string>
+  <string name="navigation_drawer_open">Открыть</string>
+  <string name="navigation_drawer_close">Закрыть</string>
+</resources>

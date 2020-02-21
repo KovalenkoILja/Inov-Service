@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  package="com.example.inov_service">
+
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.MAPS_RECEIVE" />
+
+  <application
+    android:allowBackup="true"
+    android:icon="@drawable/favicon"
+    android:label="@string/app_name"
+    android:roundIcon="@drawable/favicon"
+    android:supportsRtl="true"
+    android:usesCleartextTraffic="true"
+    android:theme="@style/AppTheme"
+    tools:ignore="GoogleAppIndexingWarning">
+    <meta-data
+      android:name="com.google.android.geo.API_KEY"
+      android:value="AIzaSyB7_LjJH22ztWDWV_1ZfC_un3JAuJoigFw"/>
+    <activity
+      android:name="activities.SinglePageActivity"
+      android:screenOrientation="portrait"
+      android:theme="@style/MyTheme.NoActionBar" />
+    <activity
+      android:name="activities.PriceListActivity"
+      android:screenOrientation="portrait"
+      android:theme="@style/MyTheme.NoActionBar" />
+    <activity
+      android:name="activities.ItemActivity"
+      android:screenOrientation="portrait"
+      android:theme="@style/MyTheme.NoActionBar" />
+    <activity
+      android:name="activities.PricesActivity"
+      android:screenOrientation="portrait"
+      android:theme="@style/MyTheme.NoActionBar" />
+    <activity
+      android:name="activities.CompanyActivity"
+      android:screenOrientation="portrait"
+      android:theme="@style/MyTheme.NoActionBar" />
+    <activity
+      android:name="activities.ServicesActivity"
+      android:screenOrientation="portrait"
+      android:theme="@style/MyTheme.NoActionBar" />
+    <activity
+      android:name="activities.ProductActivity"
+      android:screenOrientation="portrait"
+      android:theme="@style/MyTheme.NoActionBar" />
+    <activity
+      android:name="activities.NewsActivity"
+      android:screenOrientation="portrait"
+      android:theme="@style/MyTheme.NoActionBar" />
+    <activity
+      android:name="activities.SplashActivity"
+      android:screenOrientation="portrait"
+      android:theme="@style/MyTheme.NoActionBar">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+    <activity
+      android:name="activities.MainActivity"
+      android:screenOrientation="portrait"
+      android:theme="@style/MyTheme.NoActionBar" />
+  </application>
+
+</manifest>
