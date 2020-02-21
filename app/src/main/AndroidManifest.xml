@@ -18,7 +18,7 @@
     tools:ignore="GoogleAppIndexingWarning">
     <meta-data
       android:name="com.google.android.geo.API_KEY"
-      android:value="AIzaSyB7_LjJH22ztWDWV_1ZfC_un3JAuJoigFw"/>
+      android:value="<API_KEY>"/>
     <activity
       android:name="activities.SinglePageActivity"
       android:screenOrientation="portrait"
