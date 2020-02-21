@@ -30,6 +30,7 @@ This Android application was created with the aim of studying jsoup library on a
 ![](https://github.com/KovalenkoILja/Inov-Service/blob/master/screenshots/single_news.gif)
 ![](https://github.com/KovalenkoILja/Inov-Service/blob/master/screenshots/single_price_list.gif)
 ![](https://github.com/KovalenkoILja/Inov-Service/blob/master/screenshots/single_service.gif)
+![](https://github.com/KovalenkoILja/Inov-Service/blob/master/screenshots/about_company.png)
 
 # Contact
 For any enquiries, please send an email to dalek@mail.ua.
